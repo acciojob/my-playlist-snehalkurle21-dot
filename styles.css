@@ -1,1 +1,68 @@
-/*  your css code here. If applicable */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Playlist box */
+.playlist {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 8px 0;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 16px;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* Media players */
+.player_one, .player_two {
+  background-color: rgb(255, 255, 255); /* changed from gray to white */
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid black;
+}
+
+video, audio {
+  width: 100%;
+  border-radius: 8px;
+}
+
+audio {
+  margin-top: 10px;
+}
